@@ -1,0 +1,147 @@
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #000c30;
+    background-image: url('C:/Users/Computer House/Desktop/Webpage/background.jpg');
+    background-size: cover;
+    background-blend-mode: multiply;
+    margin: 10;
+    padding: 10;
+    position: relative;
+    font-size: large;
+}
+
+header {
+    background-color: #001033e0;
+    color: #fff;
+    text-align: left;
+    padding: 20px;
+    position: relative;
+    line-height: 0.8;
+}
+
+.header-image {
+    max-width: 8%;
+    height: auto;
+    position: absolute;
+    top: 0%;
+    left: 20px;
+    transform: translateY(-50%);
+    transform: translateX(-5%);
+}
+
+.navigation {
+    background-color: #090909;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+}
+
+.navigation a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 16px;
+    transition: color 0.3s ease-in-out;
+}
+
+.navigation a:: {
+    color: #007BFF;
+}
+
+section {
+    margin: 20px 0;
+    padding: 30px;
+    background-color: #ffffffc0;
+    box-shadow: 0 5px 15px rgba(0, 27, 59, 0.712);
+}
+
+section img {
+    box-shadow: 8px 8px 8px rgb(0, 9, 38); /* You can adjust the shadow properties as needed */
+    transition: box-shadow 0.1s ease-in; /* Add a smooth transition effect */
+}
+
+/* On hover, increase the shadow to create a subtle lift effect */
+section img:hover {
+    box-shadow: 20px 8px 20px rgb(1, 0, 43);
+}
+
+section h2 {
+    transition: color 0.3s ease; /* You can adjust the transition properties as needed */
+}
+
+/* On hover, change the text color for a subtle effect */
+section:hover h2 {
+    color: #00001e; /* Change the color to your preferred hover color */
+}
+
+h1 {
+    color: #ffffff;
+    margin-left: 8.5%;
+    margin-top: 4%;
+    line-height: 0.35 ;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    word-spacing: 10%;
+    text-align: left;
+
+}
+h2 {
+    color: #000b72;
+}
+h3 {
+    font-size: small;
+    margin-left: 8.5%;
+    line-height: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+ h4 {
+    font-size: large;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    margin-top: -5%;
+    line-height: 0.55;
+    font-size:250%;
+ }
+p {
+    font-size: 16px;
+    line-height: 1.8;
+    font-size: large;
+}
+
+ul {
+    list-style-type: disc;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0;
+}
+
+
+
+footer {
+    background-color: #001033e0;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Responsive Design - Adjustments for smaller screens */
+@media (max-width: 768px) {
+    header {
+        padding: 15px;
+    }
+
+    .navigation {
+        padding: 10px;
+    }
+
+    section {
+        padding: 20px;
+    }
+
+    footer {
+        padding: 15px;
+    }
+}
